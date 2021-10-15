@@ -1,0 +1,1 @@
+This read me is about my Journey to study and master Python as a programming language.
