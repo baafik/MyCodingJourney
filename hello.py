@@ -36,10 +36,58 @@ print(z)
 print(type(x))
 print(type(y))
 
-#single & double qoutes
+# single & double qoutes
 x = "clement"
 y = 'clement'
 
 A = 4
-a = sally 
+a = "sally" 
 # A will not overide a 
+
+# Variable types
+var = "clement"
+my_var = "clement"
+myvar = "clement"
+myvar3 = "clement"
+
+# camel case
+myVariableName = "Clement"
+
+# pascal case
+MyVariableName = "Clement"
+
+# snake case
+my_variable_name = "clement"
+
+#assigning multiple values to variables in one line 
+x,y,z = "Clement", "Yeboah", "baafi"
+print(x)
+print(y)
+print(z)
+
+#Unpacking
+fruits = ["banana", "apple","cherry"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+
+x = "clement "
+print("Python is " + x)
+y = "Yeboah"
+z = x+y
+print(z)
+
+def myfunc():
+    print("Python is " + x)
+myfunc()
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
