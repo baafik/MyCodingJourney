@@ -13,7 +13,8 @@ if b > a:
 else:
   print("b is not greater than a")
 
-  #bool() function
+#bool() function
+
 print(bool("Hello"))
 print(bool(15))
 x = "Hello"
